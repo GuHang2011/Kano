@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/29828/Downloads/KAPT/KAPT-main/train.py", line 15, in <module>
+    from chemprop.parsing import parse_train_args
+  File "/mnt/c/Users/29828/Downloads/KAPT/KAPT-main/chemprop/__init__.py", line 1, in <module>
+    import chemprop.data
+  File "/mnt/c/Users/29828/Downloads/KAPT/KAPT-main/chemprop/data/__init__.py", line 1, in <module>
+    from .data import MoleculeDatapoint, MoleculeDataset
+  File "/mnt/c/Users/29828/Downloads/KAPT/KAPT-main/chemprop/data/data.py", line 6, in <module>
+    from torch.utils.data.dataset import Dataset
+ModuleNotFoundError: No module named 'torch'
